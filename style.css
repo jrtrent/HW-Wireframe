@@ -1,32 +1,34 @@
 * {
     box-sizing: border-box;
     text-align: center;
+     }
+  body{
+    background-color:#777;
+    width: 960px;
+    font-family: Arial, Helevetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
   }
-  
-  .container { 
-    border: 2px solid red;
-    padding: 1em;
-  }
-  
-  .flex-container{
-    display:flex;
-  }
+      
   .item {
-    height: 100px;
-    border: 2px solid green;
-    flex: 2;
+    border: 2px solid;
     margin: 0 2em;
     padding: 1em; 
   }
-  
-  .item-1{
-    flex: 1;
+
+  .footer{
+    border: 2px solid grey;
   }
-  .item-2{
-    flex: 3;
+  .aside{
+    float: right;
+    border: 2px solid;
+  }
+  .flex-container{
+    display:flex;
+    justify-content: center;
+    border: 2px solid;
+    padding: 2em;
+    margin: 5px;
+    background-color:#ebebeb;
+    width: 495px;
   }
   
-  .item-3{
-    flex: 1;
-  
-  }
